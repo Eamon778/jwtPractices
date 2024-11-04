@@ -1,0 +1,8 @@
+Create an .env file
+
+add this in there
+
+================================================
+PORT = your server port address
+MONGO_URI = your mongodb connection string
+================================================
