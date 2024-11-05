@@ -3,21 +3,19 @@ import {Routes, Route} from 'react-router-dom'
 import ProtectedRoute from './protectedRoute'
 import Home from "./pages/home";
 import Login from './pages/auth/login'
+import Register from "./pages/auth/register";
 
 const App = ()=>{
   return (
-    <div>
-      <h1>Header component</h1>
-
-      <Routes>
+    <Routes>
       {/* Public route */}
       <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register/>}/>
 
       {/* Protected route */}
       <Route path="/" element={<ProtectedRoute><Home/></ProtectedRoute>} />
 
     </Routes>
-    </div>
   )
 }
 

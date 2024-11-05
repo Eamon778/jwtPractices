@@ -27,7 +27,6 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        match: /^\+8801\d{10}$/,
     },
     address: {
         street: {

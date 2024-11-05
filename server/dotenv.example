@@ -5,4 +5,6 @@ add this in there
 ================================================
 PORT = your server port address
 MONGO_URI = your mongodb connection string
+ACCESS_TOKEN_SECRET= your access token secret code
+REFRESH_TOKEN_SECRET your refresh token secret code
 ================================================
